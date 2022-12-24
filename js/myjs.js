@@ -230,7 +230,7 @@ function check_minus_day(day, id) {
 		document.getElementById(id).innerHTML =
 			'Banner sẽ kết thúc <br> sau ' + day + ' ngày nữa';
 		document.getElementById(id).style.padding = '5px';
-		document.getElementById(id).style.fontSize = 'small';
+		document.getElementById(id).style.fontSize = 'medium';
 	}
 }
 const variableToString = (varObj) => Object.keys(varObj)[0];
