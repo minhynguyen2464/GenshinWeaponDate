@@ -219,108 +219,155 @@ function check_day(day, id) {
 	} else {
 		document.getElementById(id).style.color = '#C82333';
 	}
+	if (day < 0) {
+		document.getElementById(id).style.color = '#fafafa';
+	}
+}
+
+function check_minus_day(day, id) {
+	if (day < 0) {
+		day = day * -1;
+		document.getElementById(id).innerHTML =
+			'Banner sẽ kết thúc <br> sau ' + day + ' ngày nữa';
+		document.getElementById(id).style.padding = '5px';
+		document.getElementById(id).style.fontSize = 'small';
+	}
 }
 const variableToString = (varObj) => Object.keys(varObj)[0];
 var variableNameStr = variableToString({ Weapon_Primordial_Jade_Cutter });
 check_day(Weapon_Primordial_Jade_Cutter, variableNameStr);
+check_minus_day(Weapon_Primordial_Jade_Cutter, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Mistsplitter_Reforged });
 check_day(Weapon_Mistsplitter_Reforged, variableNameStr);
+check_minus_day(Weapon_Mistsplitter_Reforged, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Skyward_Harp });
 check_day(Weapon_Skyward_Harp, variableNameStr);
+check_minus_day(Weapon_Skyward_Harp, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Kagura27s_Verity });
 check_day(Weapon_Kagura27s_Verity, variableNameStr);
+check_minus_day(Weapon_Kagura27s_Verity, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Key_of_Khaj });
 check_day(Weapon_Key_of_Khaj, variableNameStr);
+check_minus_day(Weapon_Key_of_Khaj, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_A_Thousand_Floating_Dreams });
 check_day(Weapon_A_Thousand_Floating_Dreams, variableNameStr);
+check_minus_day(Weapon_A_Thousand_Floating_Dreams, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Hunter27s_Path });
 check_day(Weapon_Hunter27s_Path, variableNameStr);
+check_minus_day(Weapon_Hunter27s_Path, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Amos_27_Bow });
 check_day(Weapon_Amos_27_Bow, variableNameStr);
+check_minus_day(Weapon_Amos_27_Bow, variableNameStr);
 
 var variableNameStr = variableToString({
 	Weapon_Lost_Prayer_to_the_Sacred_Winds,
 });
 check_day(Weapon_Lost_Prayer_to_the_Sacred_Winds, variableNameStr);
+check_minus_day(Weapon_Lost_Prayer_to_the_Sacred_Winds, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Engulfing_Lightning });
 check_day(Weapon_Engulfing_Lightning, variableNameStr);
+check_minus_day(Weapon_Engulfing_Lightning, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Wolf27s_Gravestone });
 check_day(Weapon_Wolf27s_Gravestone, variableNameStr);
+check_minus_day(Weapon_Wolf27s_Gravestone, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Vortex_Vanquisher });
 check_day(Weapon_Vortex_Vanquisher, variableNameStr);
+check_minus_day(Weapon_Vortex_Vanquisher, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Haran_Geppaku_Futsu });
 check_day(Weapon_Haran_Geppaku_Futsu, variableNameStr);
+check_minus_day(Weapon_Haran_Geppaku_Futsu, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Primordial_Jade_Winged });
 check_day(Weapon_Primordial_Jade_Winged, variableNameStr);
+check_minus_day(Weapon_Primordial_Jade_Winged, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Tulaytullah27s_Remembrance });
 check_day(Weapon_Tulaytullah27s_Remembrance, variableNameStr);
+check_minus_day(Weapon_Tulaytullah27s_Remembrance, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Calamity_Queller });
 check_day(Weapon_Calamity_Queller, variableNameStr);
+check_minus_day(Weapon_Calamity_Queller, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Memory_of_Dust });
 check_day(Weapon_Memory_of_Dust, variableNameStr);
+check_minus_day(Weapon_Memory_of_Dust, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Summit_Shaper });
 check_day(Weapon_Summit_Shaper, variableNameStr);
+check_minus_day(Weapon_Summit_Shaper, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_The_Unforged });
 check_day(Weapon_The_Unforged, variableNameStr);
+check_minus_day(Weapon_The_Unforged, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Freedom });
 check_day(Weapon_Freedom, variableNameStr);
+check_minus_day(Weapon_Freedom, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Polar_Star });
 check_day(Weapon_Polar_Star, variableNameStr);
+check_minus_day(Weapon_Polar_Star, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Aqua_Simulacra });
 check_day(Weapon_Aqua_Simulacra, variableNameStr);
+check_minus_day(Weapon_Aqua_Simulacra, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Aquila_Favonia });
 check_day(Weapon_Aquila_Favonia, variableNameStr);
+check_minus_day(Weapon_Aquila_Favonia, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Skyward_Atlas });
 check_day(Weapon_Skyward_Atlas, variableNameStr);
+check_minus_day(Weapon_Skyward_Atlas, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Staff_of_the_Scarlet_Sands });
 check_day(Weapon_Staff_of_the_Scarlet_Sands, variableNameStr);
+check_minus_day(Weapon_Staff_of_the_Scarlet_Sands, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Thundering_Pulse });
 check_day(Weapon_Thundering_Pulse, variableNameStr);
+check_minus_day(Weapon_Thundering_Pulse, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Skyward_Blade });
 check_day(Weapon_Skyward_Blade, variableNameStr);
+check_minus_day(Weapon_Skyward_Blade, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Skyward_Pride });
 check_day(Weapon_Skyward_Pride, variableNameStr);
+check_minus_day(Weapon_Skyward_Pride, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Song_of_Broken_Pines });
 check_day(Weapon_Song_of_Broken_Pines, variableNameStr);
+check_minus_day(Weapon_Song_of_Broken_Pines, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Elegy_for_the_End });
 check_day(Weapon_Elegy_for_the_End, variableNameStr);
+check_minus_day(Weapon_Elegy_for_the_End, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Staff_of_Homa });
 check_day(Weapon_Staff_of_Homa, variableNameStr);
+check_minus_day(Weapon_Staff_of_Homa, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Everlasting_Moonglow });
 check_day(Weapon_Everlasting_Moonglow, variableNameStr);
+check_minus_day(Weapon_Everlasting_Moonglow, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Redhorn_Stonethresher });
 check_day(Weapon_Redhorn_Stonethresher, variableNameStr);
+check_minus_day(Weapon_Redhorn_Stonethresher, variableNameStr);
 
 var variableNameStr = variableToString({ Weapon_Skyward_Spine });
 check_day(Weapon_Skyward_Spine, variableNameStr);
+check_minus_day(Weapon_Skyward_Spine, variableNameStr);
