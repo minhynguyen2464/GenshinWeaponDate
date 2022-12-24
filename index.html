@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Số Ngày Vũ Khí</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>5 STAR WEAPONS COUNT</h1>
+        <br>
+        <table border="1" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <th scope="col">VŨ KHÍ</th>
+                    <th align="center" scope="col">TÊN VŨ KHÍ</th>
+                    <th scope="col">NHÂN VẬT ĐỀ CỬ</th>
+                    <th scope="col">CHỈ SỐ</th>
+                    <th scope="col" style="padding: 5px;">SỐ NGÀY KỂ TỪ LẦN <br> RERUN CUỐI</th>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Mistsplitter_Reforged.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Ánh Sáng Đêm Sương Mù (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/kamisato_ayaka_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/kamisato_ayato_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/keqing_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Mistsplitter_Reforged"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Primordial_Jade_Cutter.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Bàn Nham Kết Lục (5★) </td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/nilou_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/albedo_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/xingqiu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/kamisato_ayaka_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/kamisato_ayato_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/kaedehara_kazuha_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/keqing_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Primordial_Jade_Cutter"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Skyward_Harp.webp" alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Cánh Thiên Không (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/tighnari_portrait.webp  " alt="" class="avatar" />
+                        <img src="picture/character/yelan_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/tartaglia_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/fischl_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/ganyu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/venti_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yoimiya_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/sayu_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Skyward_Harp"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Kagura27s_Verity.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Chân Ý Của Kagura (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/yae_miko_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Kagura27s_Verity"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Key_of_Khaj-Nisut.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Chìa Khóa Khaj-Nisut (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/nilou_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>HP%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Key_of_Khaj"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_A_Thousand_Floating_Dreams.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Cõi Mộng Ngàn Đêm (5★) </td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/nahida_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tinh Thông Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_A_Thousand_Floating_Dreams"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Hunter27s_Path.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Con Đường Thợ Săn (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/tighnari_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/ganyu_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Hunter27s_Path"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Amos_27_Bow.webp" alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Cung Amos (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/tighnari_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/ganyu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yoimiya_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Amos_27_Bow"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Lost_Prayer_to_the_Sacred_Winds.webp"
+                            alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Điển Tích Tây Phong (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/shikanoin_heizou_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/mona_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yanfei_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/klee_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/ningguang_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yae_miko_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Lost_Prayer_to_the_Sacred_Winds"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Engulfing_Lightning.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Đoạn Thảo Trường Đao (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/raiden_shogun_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Hiệu Quả Nạp Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Engulfing_Lightning"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Wolf27s_Gravestone.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Đường Cùng Của Sói (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/diluc_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/eula_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Wolf27s_Gravestone"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Vortex_Vanquisher.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Giáo Nịnh Thần (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/xiao_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/zhongli_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/shenhe_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Vortex_Vanquisher"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Haran_Geppaku_Futsu.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Haran Geppaku Futsu (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/kamisato_ayato_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Haran_Geppaku_Futsu"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Primordial_Jade_Winged-Spear.webp"
+                            alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Hòa Phác Diên (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/cyno_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/xiao_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/xiangling_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/raiden_shogun_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/zhongli_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/hu_tao_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/rosaria_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/shenhe_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Primordial_Jade_Winged"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Tulaytullah27s_Remembrance.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Hồi Ức Tulaytullah (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/wanderer_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Tulaytullah27s_Remembrance"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Calamity_Queller.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Hủy Diệt (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/shenhe_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Calamity_Queller"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Memory_of_Dust.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Khóa Trần Thế (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/klee_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/ningguang_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yae_miko_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Memory_of_Dust"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Summit_Shaper.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Kiếm Chước Phong (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/albedo_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/kamisato_ayaka_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Summit_Shaper"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_The_Unforged.webp" alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Kiếm Vô Công (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/diluc_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/noelle_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/arataki_itto_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/sayu_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/eula_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_The_Unforged"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Freedom-Sworn.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Lời Thề Tự Do Cổ Xưa (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/kaedehara_kazuha_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tinh Thông Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Freedom"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Polar_Star.webp" alt="" width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Ngôi Sao Cực Đông (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/tartaglia_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Polar_Star"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Aqua_Simulacra.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Nhược Thủy (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/yelan_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/ganyu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/tartaglia_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yoimiya_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Aqua_Simulacra"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Aquila_Favonia.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Phong Ưng Kiếm (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/kamisato_ayaka_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/jean_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/bennett_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Vật Lý</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Aquila_Favonia"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Skyward_Atlas.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Quyển Thiên Không (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/shikanoin_heizou_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/mona_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/sangonomiya_kokomi_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/klee_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/ningguang_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yae_miko_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tấn Công%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Skyward_Atlas"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Staff_of_the_Scarlet_Sands.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Quyền Trượng Cát Đỏ (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/cyno_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/hu_tao_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tỷ Lệ Bạo Kích </h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Staff_of_the_Scarlet_Sands"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Thundering_Pulse.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Sấm Sét Rung Động (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/tartaglia_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yoimiya_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Thundering_Pulse"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Skyward_Blade.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Thiên Không Kiếm (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/xingqiu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/kamisato_ayaka_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/jean_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/bennett_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Hiệu Quả Nạp Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Skyward_Blade"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Skyward_Pride.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Thiên Không Kiêu Ngạo (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/dori_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/chongyun_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/diluc_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/arataki_itto_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/sayu_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/beidou_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/eula_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Hiệu Quả Nạp Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Skyward_Pride"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Song_of_Broken_Pines.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Tiếng Gió Trong Rừng Thông (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/eula_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Vật Lý</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Song_of_Broken_Pines"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Elegy_for_the_End.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Tiếng Thở Dài Vô Tận (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/collei_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yelan_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/diona_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/venti_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Tinh Thông Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Elegy_for_the_End"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Staff_of_Homa.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Trượng Hộ Ma (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/xiao_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/zhongli_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/hu_tao_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Staff_of_Homa"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Everlasting_Moonglow.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Vầng Trăng Bất Diệt (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/barbara_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/sangonomiya_kokomi_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>HP%</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Everlasting_Moonglow"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Redhorn_Stonethresher.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Xích Giác Phá Thạch Đao (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/noelle_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/arataki_itto_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>ST Bạo Kích</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Redhorn_Stonethresher"></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="col" id="weapon"><img src="picture/weapon/Weapon_Skyward_Spine.webp" alt=""
+                            width="100" />
+                    </th>
+                    <td scope="col" id="weapon_name">Xương Sống Thiên Không (5★)</td>
+                    <td scope="col" class="character-row">
+                        <img src="picture/character/candace_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/cyno_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/xiao_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/xiangling_portrait.webp" alt="" class="avatar" />
+                        <br>
+                        <img src="picture/character/raiden_shogun_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/zhongli_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/shenhe_portrait.webp" alt="" class="avatar" />
+                        <img src="picture/character/yun_jin_portrait.webp" alt="" class="avatar" />
+                    </td>
+                    <td>
+                        <h5>Hiệu Quả Nguyên Tố</h5>
+                    </td>
+                    <td align="center">
+                        <h3 id="Weapon_Skyward_Spine"></h3>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/myjs.js"></script>
+</body>
+
+</html>

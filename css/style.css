@@ -1,0 +1,44 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1a1d27;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fafafa;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+table {
+	margin-right: 0px;
+	background-color: #232734;
+}
+
+.avatar {
+	width: 60px;
+	border-radius: 50px;
+	border: rgba(59, 130, 246, 0.5);
+	margin-right: 5px;
+}
+
+.character-row {
+	padding: 5px;
+}
+
+.container h5 {
+	padding: 5px;
+}
+
+.container #weapon {
+	background-size: cover;
+	background-image: url(https://i2.wp.com/gi-builds.sfo3.digitaloceanspaces.com/bg_5star.png?strip=all&quality=100);
+}
+
+.container #weapon_name {
+	padding: 5px;
+}
