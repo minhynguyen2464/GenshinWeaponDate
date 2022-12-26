@@ -42,3 +42,15 @@ table {
 .container #weapon_name {
 	padding: 5px;
 }
+
+#guess {
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: greenyellow;
+	font-weight: 500;
+}
+
+.container #guess:hover {
+	color: white;
+	background-color: deepskyblue;
+}
