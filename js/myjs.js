@@ -1,4 +1,5 @@
 //Ngày rerun
+//YYYY-MM-DD
 var Weapon_Mistsplitter_Reforged = new Date('2022-5-30');
 var Weapon_Primordial_Jade_Cutter = new Date('2022-11-1');
 var Weapon_Skyward_Harp = new Date('2021-4-27');
@@ -385,7 +386,7 @@ const comparer = (idx, asc) => (a, b) =>
 		getCellValue(asc ? b : a, idx)
 	);
 
-// do the work...
+//Do the work
 document.querySelectorAll('th').forEach((th) =>
 	th.addEventListener('click', () => {
 		const table = th.closest('table');
@@ -399,3 +400,34 @@ document.querySelectorAll('th').forEach((th) =>
 			.forEach((tr) => table.appendChild(tr));
 	})
 );
+
+//Guessing next weapon
+document.querySelector('#guess').addEventListener('click', () => {
+	var day_list = document.querySelectorAll('[id*=Weapon_]');
+	for (let i = 0; i < day_list.length; i++) {
+		var id = day_list[i].id;
+		var numb = day_list[i].innerHTML.match(/\d/g);
+		numb = numb.join('');
+		if (numb < 150) {
+			document.querySelector('#' + id + '').parentNode.parentNode.innerHTML =
+				'';
+		} else {
+		}
+	}
+});
+
+document.getElementById('btn_click').click();
+// do the work...
+/*document.querySelectorAll('th').forEach((th) =>
+	th.addEventListener('click', () => {
+		const table = th.closest('table');
+		Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+			.sort(
+				comparer(
+					Array.from(th.parentNode.children).indexOf(th),
+					(this.asc = !this.asc)
+				)
+			)
+			.forEach((tr) => table.appendChild(tr));
+	})
+);*/
