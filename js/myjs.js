@@ -417,6 +417,7 @@ document.querySelector('#guess').addEventListener('click', () => {
 });
 
 document.getElementById('btn_click').click();
+document.getElementById('btn_click').click();
 // do the work...
 /*document.querySelectorAll('th').forEach((th) =>
 	th.addEventListener('click', () => {
